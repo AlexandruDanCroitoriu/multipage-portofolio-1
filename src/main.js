@@ -6,10 +6,15 @@ import i18n from './i18n'
 
 // Initialize theme
 function initializeTheme() {
-  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    document.documentElement.classList.add('dark')
-  } else {
+  // Default to dark mode unless user explicitly set light mode
+  if (localStorage.theme === 'light') {
     document.documentElement.classList.remove('dark')
+  } else {
+    document.documentElement.classList.add('dark')
+    // Set dark as default in localStorage if not already set
+    if (!('theme' in localStorage)) {
+      localStorage.theme = 'dark'
+    }
   }
 }
 
