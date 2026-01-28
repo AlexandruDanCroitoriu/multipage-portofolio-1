@@ -6,10 +6,11 @@
           <button
             type="button"
             :aria-label="t('pages.articles.goBack')"
-            class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 dark:hover:border-zinc-700 dark:hover:ring-zinc-300/20 lg:absolute lg:-left-5 lg:-mt-2 xl:left-0 xl:mt-0"
+            class="group mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-zinc-50 hover:bg-zinc-100 dark:bg-zinc-800/50 dark:hover:bg-zinc-700/50 transition text-sm font-medium text-zinc-700 dark:text-zinc-300 hover:text-teal-600 dark:hover:text-teal-400 ring-1 ring-zinc-200 dark:ring-zinc-700/50"
             @click="goBack"
           >
-            <ChevronLeftIcon class="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-300" />
+            <ChevronLeftIcon class="h-4 w-4 stroke-current transition group-hover:translate-x-[-2px]" />
+            <span>{{ t('pages.articles.goBack') }}</span>
           </button>
           <article>
             <header class="flex flex-col">
@@ -21,7 +22,7 @@
                 class="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
               >
                 <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
-                <span class="ml-3">{{ formatDate(article.date) }}</span>
+                <span class="ml-3">{{ getFormattedDate(article.date) }}</span>
               </time>
             </header>
             <div
@@ -40,30 +41,60 @@ import { computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import Container from '../components/Container.vue'
+import ChevronLeftIcon from '../components/icons/ChevronLeftIcon.vue'
 import { articles, formatDate } from '../data/articles.js'
 import { articleContent } from '../data/articleContent.js'
+import en from '../i18n/locales/en.json'
+import ro from '../i18n/locales/ro.json'
 import Prism from 'prismjs'
 import 'prismjs/components/prism-c'
 import 'prismjs/components/prism-javascript'
 import 'prismjs/components/prism-rust'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const route = useRoute()
 const router = useRouter()
-const ChevronLeftIcon = { template: '<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" v-bind="$attrs"><path d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="stroke-current" /></svg>' }
+const messages = { en, ro }
 
 const slug = computed(() => route.params.slug)
+
 const article = computed(() => {
+  const currentLocale = locale.value || 'en'
+  const articleList = messages[currentLocale]?.data?.articles || []
+  
+  // Find article by index in the articles list
   const baseArticle = articles.find(a => a.slug === slug.value)
-  const content = articleContent[slug.value]
+  if (!baseArticle) return null
+  
+  // Get article index and find matching data from i18n
+  const articleIndex = articles.findIndex(a => a.slug === slug.value)
+  const i18nArticle = articleList[articleIndex]
+  
+  // Parse date from i18n if available
+  const dateStr = i18nArticle?.date || baseArticle.date
+  const date = typeof dateStr === 'string' ? new Date(dateStr) : dateStr
+  
+  // Merge base article with i18n data
   return {
     ...baseArticle,
-    ...content
+    title: i18nArticle?.title || baseArticle.title,
+    description: i18nArticle?.description || baseArticle.description,
+    date: date,
+    content: articleContent[slug.value]?.content || '<p>Content coming soon...</p>'
   }
 })
 
 const goBack = () => {
   router.push('/articles')
+}
+
+const getFormattedDate = (date) => {
+  const localeMap = { en: 'en-US', ro: 'ro-RO' }
+  return new Date(date).toLocaleDateString(localeMap[locale.value] || 'en-US', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  })
 }
 
 const highlightCode = () => {
