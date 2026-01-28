@@ -1,0 +1,253 @@
+{
+  "navigation": {
+    "about": "Despre",
+    "articles": "Articole",
+    "projects": "Proiecte",
+    "speaking": "Prezentări",
+    "uses": "Folosesc"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Arhitect software, fondator și pasionat de cloud.",
+        "description": "Sunt Andrei, arhitect software și antreprenor din București. Sunt fondatorul și CEO-ul TechNova, unde dezvoltăm soluții web inovatoare care ajută companiile europene să se extindă la nivel global."
+      },
+      "newsletter": {
+        "title": "Rămâi la curent",
+        "description": "Primește notificări când public ceva nou și dezabonează-te oricând.",
+        "placeholder": "Adresa de email",
+        "button": "Alătură-te"
+      },
+      "work": {
+        "title": "Experiență",
+        "download": "Descarcă CV",
+        "present": "Prezent",
+        "labels": {
+          "company": "Companie",
+          "role": "Rol",
+          "date": "Dată"
+        }
+      }
+    },
+    "about": {
+      "title": "Sunt Andrei Popescu. Locuiesc în București, unde construiesc viitorul tehnologiilor web.",
+      "bio": {
+        "p1": "Mi-a plăcut să construiesc lucruri de când mă știu. Crescând în România în timpul digitalizării rapide din anii 2000, am văzut în mod direct cum tehnologia poate transforma afacerile și viețile oamenilor. Acea fascinație timpurie m-a determinat să scriu primele rânduri de cod la vârsta de 12 ani, construind un site web simplu pentru afacerea tatălui meu.",
+        "p2": "Punctul de cotitură a venit în timpul studiilor la Universitatea Politehnica din București, unde m-am aprofundat în sisteme distribuite și arhitectură cloud. După absolvire, am petrecut câțiva ani lucrând cu unele dintre cele mai importante companii tech din lume, contribuind la produse folosite zilnic de milioane de utilizatori.",
+        "p3": "În 2022, am fondat TechNova cu o viziune: să construim o platformă care face dezvoltarea cloud-native accesibilă fiecărei companii europene, indiferent de mărime. Creăm instrumente care simplifică deployment-ul, scalarea și monitorizarea, permițând dezvoltatorilor să se concentreze pe construirea de produse grozave în loc să se lupte cu infrastructura.",
+        "p4": "Astăzi, îmi împart timpul între dezvoltarea TechNova, contribuții la proiecte open-source și împărtășirea a ceea ce am învățat prin articole și prezentări la conferințe. Sunt pasionat de Vue.js, arhitecturi serverless și de a ajuta comunitatea tech din România să crească. Când nu programez, mă găsești făcând drumeții în Munții Carpați sau explorând scena vibrantă de cafenele din București."
+      }
+    },
+    "articles": {
+      "title": "Scriu despre arhitectură software, tehnologii cloud și industria tech.",
+      "intro": "Toate gândurile mele detaliate despre dezvoltarea software, design de sisteme și construirea de produse tech de succes.",
+      "readMore": "Citește articolul",
+      "goBack": "Înapoi la articole"
+    },
+    "projects": {
+      "title": "Lucruri pe care le-am construit pentru a face diferența în lumea tech.",
+      "intro": "Am lucrat la numeroase proiecte de-a lungul anilor, dar acestea sunt cele de care sunt cel mai mândru. Multe dintre ele sunt open-source, așa că dacă ceva îți atrage atenția, verifică codul și contribuie dacă ai idei de îmbunătățire."
+    },
+    "speaking": {
+      "title": "Am vorbit la evenimente din toată Europa și am fost intervievat pentru podcasturi tech.",
+      "intro": "Una dintre modalitățile mele preferate de a împărtăși cunoștințe este să vorbesc la conferințe, unde interacțiunea live creează oportunități pentru discuții mai profunde. De asemenea, îmi plac interviurile pentru podcasturi pentru că permit conversații mai nuanțate despre tehnologie și antreprenoriat.",
+      "conferences": "Conferințe",
+      "podcasts": "Podcasturi",
+      "watchVideo": "Vizionează video",
+      "listenPodcast": "Ascultă podcastul"
+    },
+    "uses": {
+      "title": "Software pe care îl folosesc, gadgeturi pe care le iubesc și instrumente pe care le recomand.",
+      "intro": "Sunt întrebat frecvent despre setup-ul meu de dezvoltare și instrumentele pe care le folosesc pentru a fi productiv. Iată o listă cuprinzătoare a echipamentelor, software-ului și instrumentelor de productivitate preferate care mă ajută să construiesc software mai bun."
+    },
+    "thankYou": {
+      "title": "Mulțumim pentru abonare.",
+      "message": "Am adăugat adresa ta de email pe lista noastră. Vei primi actualizări următoarea dată când public ceva."
+    }
+  },
+  "data": {
+    "work": [
+      {
+        "company": "TechNova",
+        "title": "Fondator & CEO",
+        "start": "2022",
+        "end": "Prezent"
+      },
+      {
+        "company": "Google",
+        "title": "Senior Software Engineer",
+        "start": "2019",
+        "end": "2022"
+      },
+      {
+        "company": "UiPath",
+        "title": "Dezvoltator Full-stack",
+        "start": "2017",
+        "end": "2019"
+      },
+      {
+        "company": "Bitdefender",
+        "title": "Dezvoltator Junior",
+        "start": "2015",
+        "end": "2017"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Construirea de Aplicații Scalabile cu Vue 3 și Cloud Functions",
+        "description": "O analiză detaliată a arhitecturii aplicațiilor web moderne folosind Composition API din Vue 3 combinat cu funcții serverless pentru performanță și scalabilitate optimă.",
+        "date": "2024-09-05"
+      },
+      {
+        "title": "Scena Tech din România: Oportunități și Provocări în 2024",
+        "description": "O analiză a ecosistemului tehnologic în creștere din România, de la finanțarea startup-urilor la dezvoltarea talentelor, și ce înseamnă pentru viitorul tech-ului european.",
+        "date": "2024-07-14"
+      },
+      {
+        "title": "Arhitectură Frontend Modernă: De la Monoliți la Micro-frontend-uri",
+        "description": "Cum am restructurat arhitectura frontend la TechNova pentru a permite mai multor echipe să lucreze independent menținând o experiență de utilizator coerentă.",
+        "date": "2024-03-10"
+      }
+    ],
+    "projects": [
+      {
+        "name": "TechNova Platform",
+        "description": "O platformă de aplicații cloud concepută special pentru startup-uri din România și Europa. Include deployment-uri cu un singur click, scalare automată și monitorizare integrată—tot ce e necesar pentru a trece de la idee la producție în ore, nu săptămâni.",
+        "link": "https://technova.ro"
+      },
+      {
+        "name": "RoCode",
+        "description": "O platformă open-source pentru predarea programării în limba română. Include provocări de programare interactive, tutoriale video și o comunitate de suport care ajută mii de români să învețe programare în fiecare lună.",
+        "link": "https://rocode.dev"
+      },
+      {
+        "name": "CloudFlow",
+        "description": "Un instrument de automatizare a workflow-urilor serverless care simplifică construirea arhitecturilor complexe bazate pe evenimente. Construit cu un editor vizual și suportă toți furnizorii majori de cloud, facilitând orchestrarea sistemelor distribuite.",
+        "link": "https://cloudflow.io"
+      },
+      {
+        "name": "VueMaster",
+        "description": "O bibliotecă comprehensivă de componente Vue.js axată pe aplicații enterprise. Include componente accesibile și personalizabile cu suport încorporat pentru internaționalizare și mod întunecat. Folosită de peste 50 de companii din Europa.",
+        "link": "https://vuemaster.dev"
+      },
+      {
+        "name": "DevMetrics",
+        "description": "Un dashboard analitic care ajută echipele de dezvoltare să înțeleagă modelele lor de productivitate. Se integrează cu GitHub, GitLab și Jira pentru a oferi perspective acționabile fără atmosfera de supraveghere a instrumentelor tradiționale de monitorizare.",
+        "link": "https://devmetrics.io"
+      }
+    ],
+    "speaking": {
+      "conferences": [
+        {
+          "title": "Aplicații Cloud-Native în Practică",
+          "event": "DevTalks București 2024",
+          "description": "Un ghid practic pentru construirea și deployment-ul aplicațiilor cloud-native, acoperind totul de la containerizare la arhitecturi de service mesh. Include exemple din lumea reală din mediul de producție TechNova.",
+          "cta": "Vizionează video"
+        },
+        {
+          "title": "Tehnici de Optimizare a Performanței în Vue.js",
+          "event": "JSHeroes Cluj 2023",
+          "description": "Analiză aprofundată a strategiilor avansate de optimizare a performanței pentru aplicații Vue.js, incluzând lazy loading, code splitting și modele reactive de performanță care pot îmbunătăți dramatic experiența utilizatorului.",
+          "cta": "Vizionează video"
+        }
+      ],
+      "podcasts": [
+        {
+          "title": "Construirea de Startup-uri Tech de Succes în România",
+          "show": "Romanian Tech Talks",
+          "description": "Discutăm călătoria fondării TechNova, de la ideea inițială la asigurarea finanțării și construirea unei echipe remote-first în Europa. Împărtășesc lecții învățate și sfaturi pentru aspiranții antreprenori români.",
+          "cta": "Ascultă podcastul"
+        },
+        {
+          "title": "Viitorul Cloud Computing",
+          "show": "Code & Coffee",
+          "description": "Explorăm tendințele emergente în tehnologiile cloud, serverless computing și edge computing. Cum aceste tehnologii remodelează modul în care construim și lansăm aplicații web moderne.",
+          "cta": "Ascultă podcastul"
+        },
+        {
+          "title": "Framework-uri Frontend Moderne: Vue vs React vs Svelte",
+          "show": "DevCast",
+          "description": "O comparație imparțială a framework-urilor frontend de top în 2024, discutând punctele lor forte, punctele slabe și cazurile de utilizare ideale bazate pe experiența reală de producție.",
+          "cta": "Ascultă podcastul"
+        }
+      ]
+    },
+    "uses": {
+      "workstation": [
+        {
+          "name": "MacBook Pro 16\" M3 Max (2024)",
+          "description": "Cel mai bun laptop de dezvoltare pe care l-am folosit vreodată. Chip-ul M3 Max gestionează multiple containere Docker, sarcini grele în IDE și build-uri mari fără probleme. Autonomia bateriei este incredibilă—ușor 12+ ore de programare."
+        },
+        {
+          "name": "Monitor Dell UltraSharp U2723DE 27\" 4K",
+          "description": "Perfect pentru programare cu ecran împărțit. Conectivitatea USB-C îl face o soluție cu un singur cablu pentru MacBook. Acuratețea culorilor este excelentă, iar acoperirea anti-reflex face sesiunile lungi de programare confortabile."
+        },
+        {
+          "name": "Tastatură Mecanică Wireless Keychron K2",
+          "description": "Layout compact cu switch-uri Gateron Brown. Conectivitate Bluetooth cu suport multi-dispozitiv înseamnă că pot comuta rapid între laptop și setup-ul desktop. Experiența de tastare este fenomenală."
+        },
+        {
+          "name": "Logitech MX Master 3S",
+          "description": "Cel mai confortabil mouse pentru programare. Rotiță orizontală perfectă pentru navigarea fișierelor largi de cod, iar butoanele personalizabile accelerează semnificativ workflow-ul meu."
+        },
+        {
+          "name": "Căști Sony WH-1000XM5 cu Noise-Canceling",
+          "description": "Esențiale pentru munca concentrată. Anularea zgomotului este lider în industrie, perfectă pentru lucrul în cafenele sau birouri open-space. Calitatea sunetului este excelentă atât pentru muzică, cât și pentru apeluri video."
+        }
+      ],
+      "development": [
+        {
+          "name": "Visual Studio Code",
+          "description": "Editorul meu principal cu un set atent selectat de extensii: Volar pentru Vue, Prettier pentru formatare, GitLens pentru integrare Git și Tailwind CSS IntelliSense. Terminalul integrat și instrumentele de debugging sunt excelente."
+        },
+        {
+          "name": "iTerm2 cu Oh My Zsh",
+          "description": "O înlocuire puternică pentru terminal cu panouri împărțite, căutare și autocompletare. Combinat cu plugin-urile și temele Oh My Zsh, face munca în linia de comandă plăcută. Plugin-ul git este deosebit de util."
+        },
+        {
+          "name": "Docker Desktop",
+          "description": "Esențial pentru mediile de dezvoltare locale. Containerizez totul pentru a asigura consistența în echipă. Integrarea Kubernetes este grozavă pentru testarea deployment-urilor local înainte de push în producție."
+        }
+      ],
+      "design": [
+        {
+          "name": "Figma",
+          "description": "Întregul proces de design se întâmplă în Figma. Funcțiile de colaborare facilitează lucrul cu designerii, iar instrumentele de handoff pentru dezvoltatori cu măsurători precise și export CSS economisesc ore de implementare."
+        }
+      ],
+      "productivity": [
+        {
+          "name": "Notion",
+          "description": "Wiki-ul companiei noastre, hub-ul de documentație și instrument de planificare a proiectelor. Flexibilitatea de a crea baze de date și vizualizări personalizate îl face perfect pentru organizarea a totul, de la specificații tehnice la note de întâlniri."
+        },
+        {
+          "name": "Slack",
+          "description": "Platformă de comunicare în echipă. Am configurat canale dedicate pentru diferite proiecte și am integrat cu GitHub pentru notificări de deployment. Funcția huddles este grozavă pentru sincronizări rapide."
+        },
+        {
+          "name": "Linear",
+          "description": "Cel mai bun instrument de urmărire a task-urilor pe care l-am folosit. Interfață rapidă, condusă de tastatură, care nu se pune în cale. Funcțiile de planificare ciclică ne ajută să menținem un ritm constant de dezvoltare fără overhead-ul instrumentelor tradiționale de management de proiect."
+        },
+        {
+          "name": "Obsidian",
+          "description": "Sistemul meu personal de management al cunoștințelor. Îl folosesc pentru note zilnice, cercetare tehnică și menținerea unui wiki personal. Link-urile bidirecționale creează o rețea de cunoștințe care mă ajută să conectez idei."
+        }
+      ]
+    }
+  },
+  "components": {
+    "footer": {
+      "copyright": "© {year} Andrei Popescu. Toate drepturile rezervate."
+    },
+    "social": {
+      "followOnX": "Urmărește pe X",
+      "followOnInstagram": "Urmărește pe Instagram",
+      "followOnGitHub": "Urmărește pe GitHub",
+      "followOnLinkedIn": "Urmărește pe LinkedIn"
+    },
+    "mobileNav": {
+      "menu": "Meniu",
+      "close": "Închide navigarea"
+    }
+  }
+}

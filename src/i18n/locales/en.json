@@ -1,0 +1,253 @@
+{
+  "navigation": {
+    "about": "About",
+    "articles": "Articles",
+    "projects": "Projects",
+    "speaking": "Speaking",
+    "uses": "Uses"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Software architect, founder, and cloud enthusiast.",
+        "description": "I'm Andrei, a software architect and entrepreneur based in Bucharest. I'm the founder and CEO of TechNova, where we develop innovative web solutions that empower European businesses to scale globally."
+      },
+      "newsletter": {
+        "title": "Stay up to date",
+        "description": "Get notified when I publish something new, and unsubscribe at any time.",
+        "placeholder": "Email address",
+        "button": "Join"
+      },
+      "work": {
+        "title": "Work",
+        "download": "Download CV",
+        "present": "Present",
+        "labels": {
+          "company": "Company",
+          "role": "Role",
+          "date": "Date"
+        }
+      }
+    },
+    "about": {
+      "title": "I'm Andrei Popescu. I live in Bucharest, where I design the future of web technologies.",
+      "bio": {
+        "p1": "I've loved building things for as long as I can remember. Growing up in Romania during the rapid digitalization of the 2000s, I witnessed firsthand how technology could transform businesses and lives. That early fascination led me to write my first lines of code at age 12, building a simple website for my father's business.",
+        "p2": "The real turning point came during my studies at Politehnica University in Bucharest, where I dove deep into distributed systems and cloud architecture. After graduating, I spent several years working with some of the world's leading tech companies, contributing to products used by millions of users daily.",
+        "p3": "In 2022, I founded TechNova with a vision: to build a platform that makes cloud-native development accessible to every European business, regardless of size. We're creating tools that simplify deployment, scaling, and monitoring, allowing developers to focus on building great products rather than wrestling with infrastructure.",
+        "p4": "Today, I split my time between growing TechNova, contributing to open-source projects, and sharing what I've learned through articles and conference talks. I'm passionate about Vue.js, serverless architectures, and helping the Romanian tech community grow. When I'm not coding, you'll find me hiking in the Carpathian Mountains or exploring Bucharest's vibrant coffee scene."
+      }
+    },
+    "articles": {
+      "title": "Writing on software architecture, cloud technologies, and the tech industry.",
+      "intro": "All of my long-form thoughts on software development, system design, and building successful tech products.",
+      "readMore": "Read article",
+      "goBack": "Go back to articles"
+    },
+    "projects": {
+      "title": "Things I've built to make a difference in the tech world.",
+      "intro": "I've worked on numerous projects over the years, but these are the ones I'm most proud of. Many of them are open-source, so if something catches your eye, check out the code and contribute if you have ideas for improvements."
+    },
+    "speaking": {
+      "title": "I've spoken at events across Europe and been interviewed for tech podcasts.",
+      "intro": "One of my favorite ways to share knowledge is speaking at conferences, where the live interaction creates opportunities for deeper discussions. I also enjoy podcast interviews because they allow for more nuanced conversations about technology and entrepreneurship.",
+      "conferences": "Conferences",
+      "podcasts": "Podcasts",
+      "watchVideo": "Watch video",
+      "listenPodcast": "Listen to podcast"
+    },
+    "uses": {
+      "title": "Software I use, gadgets I love, and tools I recommend.",
+      "intro": "I get asked frequently about my development setup and the tools I use to stay productive. Here's a comprehensive list of my favorite equipment, software, and productivity tools that help me build better software."
+    },
+    "thankYou": {
+      "title": "Thanks for subscribing.",
+      "message": "We've added your email to our list. You'll start receiving updates the next time I publish something."
+    }
+  },
+  "data": {
+    "work": [
+      {
+        "company": "TechNova",
+        "title": "Founder & CEO",
+        "start": "2022",
+        "end": "Present"
+      },
+      {
+        "company": "Google",
+        "title": "Senior Software Engineer",
+        "start": "2019",
+        "end": "2022"
+      },
+      {
+        "company": "UiPath",
+        "title": "Full-stack Developer",
+        "start": "2017",
+        "end": "2019"
+      },
+      {
+        "company": "Bitdefender",
+        "title": "Junior Developer",
+        "start": "2015",
+        "end": "2017"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Building Scalable Applications with Vue 3 and Cloud Functions",
+        "description": "A deep dive into architecting modern web applications using Vue 3's Composition API combined with serverless cloud functions for optimal performance and scalability.",
+        "date": "2024-09-05"
+      },
+      {
+        "title": "The Romanian Tech Scene: Opportunities and Challenges in 2024",
+        "description": "An analysis of Romania's growing technology ecosystem, from startup funding to talent development, and what it means for the future of European tech.",
+        "date": "2024-07-14"
+      },
+      {
+        "title": "Modern Frontend Architecture: From Monoliths to Micro-frontends",
+        "description": "How we restructured our frontend architecture at TechNova to support multiple teams working independently while maintaining a cohesive user experience.",
+        "date": "2024-03-10"
+      }
+    ],
+    "projects": [
+      {
+        "name": "TechNova Platform",
+        "description": "A cloud-based application platform designed specifically for Romanian and European startups. Features one-click deployments, automatic scaling, and integrated monitoring—everything needed to go from idea to production in hours, not weeks.",
+        "link": "https://technova.ro"
+      },
+      {
+        "name": "RoCode",
+        "description": "An open-source platform for teaching programming in Romanian. Includes interactive coding challenges, video tutorials, and a supportive community helping thousands of Romanians learn to code every month.",
+        "link": "https://rocode.dev"
+      },
+      {
+        "name": "CloudFlow",
+        "description": "A serverless workflow automation tool that simplifies building complex event-driven architectures. Built with a visual editor and supports all major cloud providers, making it easy to orchestrate distributed systems.",
+        "link": "https://cloudflow.io"
+      },
+      {
+        "name": "VueMaster",
+        "description": "A comprehensive Vue.js component library focused on enterprise applications. Features accessible, customizable components with built-in support for internationalization and dark mode. Used by over 50 companies across Europe.",
+        "link": "https://vuemaster.dev"
+      },
+      {
+        "name": "DevMetrics",
+        "description": "An analytics dashboard that helps development teams understand their productivity patterns. Integrates with GitHub, GitLab, and Jira to provide actionable insights without the surveillance feel of traditional monitoring tools.",
+        "link": "https://devmetrics.io"
+      }
+    ],
+    "speaking": {
+      "conferences": [
+        {
+          "title": "Cloud-Native Applications in Practice",
+          "event": "DevTalks Bucharest 2024",
+          "description": "A practical guide to building and deploying cloud-native applications, covering everything from containerization to service mesh architectures. Includes real-world examples from TechNova's production environment.",
+          "cta": "Watch video"
+        },
+        {
+          "title": "Vue.js Performance Optimization Techniques",
+          "event": "JSHeroes Cluj 2023",
+          "description": "Deep dive into advanced performance optimization strategies for Vue.js applications, including lazy loading, code splitting, and reactive performance patterns that can dramatically improve user experience.",
+          "cta": "Watch video"
+        }
+      ],
+      "podcasts": [
+        {
+          "title": "Building Successful Tech Startups in Romania",
+          "show": "Romanian Tech Talks",
+          "description": "Discussing the journey of founding TechNova, from initial idea to securing funding and building a remote-first team across Europe. Sharing lessons learned and advice for aspiring Romanian entrepreneurs.",
+          "cta": "Listen to podcast"
+        },
+        {
+          "title": "The Future of Cloud Computing",
+          "show": "Code & Coffee",
+          "description": "Exploring emerging trends in cloud technologies, serverless computing, and edge computing. How these technologies are reshaping how we build and deploy modern web applications.",
+          "cta": "Listen to podcast"
+        },
+        {
+          "title": "Modern Frontend Frameworks: Vue vs React vs Svelte",
+          "show": "DevCast",
+          "description": "An unbiased comparison of the leading frontend frameworks in 2024, discussing their strengths, weaknesses, and ideal use cases based on real-world production experience.",
+          "cta": "Listen to podcast"
+        }
+      ]
+    },
+    "uses": {
+      "workstation": [
+        {
+          "name": "MacBook Pro 16\" M3 Max (2024)",
+          "description": "The best development laptop I've ever used. The M3 Max chip handles multiple Docker containers, heavy IDE workloads, and large builds without breaking a sweat. The battery life is incredible—easily 12+ hours of coding."
+        },
+        {
+          "name": "Dell UltraSharp U2723DE 27\" 4K Monitor",
+          "description": "Perfect for split-screen coding. The USB-C connectivity makes it a one-cable solution for my MacBook. Color accuracy is excellent, and the anti-glare coating makes long coding sessions comfortable."
+        },
+        {
+          "name": "Keychron K2 Wireless Mechanical Keyboard",
+          "description": "Compact layout with Gateron Brown switches. Bluetooth connectivity with multi-device support means I can quickly switch between my laptop and desktop setup. The typing experience is phenomenal."
+        },
+        {
+          "name": "Logitech MX Master 3S",
+          "description": "The most comfortable mouse for programming. The horizontal scroll wheel is perfect for navigating wide code files, and the customizable buttons speed up my workflow significantly."
+        },
+        {
+          "name": "Sony WH-1000XM5 Noise-Canceling Headphones",
+          "description": "Essential for deep focus work. The noise cancellation is industry-leading, perfect for working in coffee shops or open offices. Sound quality is excellent for both music and video calls."
+        }
+      ],
+      "development": [
+        {
+          "name": "Visual Studio Code",
+          "description": "My primary editor with a carefully curated set of extensions: Volar for Vue, Prettier for formatting, GitLens for Git integration, and Tailwind CSS IntelliSense. The integrated terminal and debugging tools are excellent."
+        },
+        {
+          "name": "iTerm2 with Oh My Zsh",
+          "description": "A powerful terminal replacement with split panes, search, and autocomplete. Combined with Oh My Zsh's plugins and themes, it makes command-line work actually enjoyable. The git plugin is particularly useful."
+        },
+        {
+          "name": "Docker Desktop",
+          "description": "Essential for local development environments. I containerize everything to ensure consistency across the team. The Kubernetes integration is great for testing deployments locally before pushing to production."
+        }
+      ],
+      "design": [
+        {
+          "name": "Figma",
+          "description": "The entire design process happens in Figma. The collaborative features make it easy to work with designers, and the developer handoff tools with precise measurements and CSS export save hours of implementation time."
+        }
+      ],
+      "productivity": [
+        {
+          "name": "Notion",
+          "description": "Our company wiki, documentation hub, and project planning tool. The flexibility to create custom databases and views makes it perfect for organizing everything from technical specs to meeting notes."
+        },
+        {
+          "name": "Slack",
+          "description": "Team communication platform. We've set up focused channels for different projects and integrated with GitHub for deployment notifications. The huddles feature is great for quick sync-ups."
+        },
+        {
+          "name": "Linear",
+          "description": "Best issue tracking tool I've used. Fast, keyboard-driven interface that doesn't get in the way. The cycle planning features help us maintain a steady development pace without the overhead of traditional project management tools."
+        },
+        {
+          "name": "Obsidian",
+          "description": "My personal knowledge management system. I use it for daily notes, technical research, and maintaining a personal wiki. The bidirectional linking creates a web of knowledge that helps me connect ideas."
+        }
+      ]
+    }
+  },
+  "components": {
+    "footer": {
+      "copyright": "© {year} Andrei Popescu. All rights reserved."
+    },
+    "social": {
+      "followOnX": "Follow on X",
+      "followOnInstagram": "Follow on Instagram",
+      "followOnGitHub": "Follow on GitHub",
+      "followOnLinkedIn": "Follow on LinkedIn"
+    },
+    "mobileNav": {
+      "menu": "Menu",
+      "close": "Close navigation"
+    }
+  }
+}
