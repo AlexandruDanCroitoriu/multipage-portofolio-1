@@ -9,7 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-Sz-bLGqL.js"></script>
+    <script>
+      // Handle SPA routing on page refresh
+      (function() {
+        let redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.pathname) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-ylQi1pok.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-IfhLhLUJ.css">
   </head>
   <body class="bg-white dark:bg-black">
